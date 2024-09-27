@@ -73,9 +73,16 @@
 }
 a, a:focus {outline : none;}
 
+.picflow-gallery{
+    margin: 0 !important;
+
+    width: 10% !important;
+
+}
+
 .picflow-gallery.gallery-padding[_ngcontent-ng-c2583209788]{
     margin: 0 !important;
-    padding: 0px !important;
+    padding: 0 px !important;
 }
 .links-social{
     border: none;
@@ -89,17 +96,24 @@ a, a:focus {outline : none;}
 }
 
 .main{
+    min-width: 106% !important;
+
  
 }
 
+.free-badge{
+    display: none !important;
+}
+
 .content-wrapper{
+    padding-top: 50px;
     font-weight: 300;
     flex-direction: column;
-    font-size: 25px;
+    font-size: 20px;
     width: 100%;
     box-sizing: content-box;
     display: flex;
-    gap: 20px;
+    gap: 15px;
     align-items: center;
     justify-content: center;
 }
