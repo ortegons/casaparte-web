@@ -9,9 +9,9 @@
     max-height: 65px ;
 
 }
-@media only screen and(max-width: 768px) {
+@media (max-width: 768px) {
     .logo-img{
-        max-height: 40px ;
+        max-height: 45px ;
     }
 }
 .header-elements{
@@ -60,7 +60,7 @@
     font-family: "Source Code Pro", monospace;
     font-weight: 300;
     line-height: 27.2px;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -90,15 +90,25 @@ a, a:focus {outline : none;}
     outline : none;
     display: flex;
     gap: 25px;
+    font-size: 22px;
     justify-content: end;
     align-items: center;
     flex-grow: 1;
+    padding-right: 25px;
 }
 
 .main{
     min-width: 106% !important;
 
  
+}
+
+@media (max-width: 768px) {
+    .main{
+        min-width: 110% !important;
+    
+     
+    }
 }
 
 .free-badge{
