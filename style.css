@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+.logo{
+    width: auto;
+    display: block;
+    flex-grow: 0.65;
+}
+.logo-img{
+    max-height: 65px ;
+
+}
+@media only screen and(max-width: 768px) {
+    .logo-img{
+        max-height: 40px ;
+    }
+}
+.header-elements{
+    padding: 18.5px 30.8px 18.5px 30.8px ;
+}
+
+.header{
+    background-color: white;
+}
+.fa-instagram{
+    color: rgb(34, 34, 34);
+}
+
+
+.fa-facebook{
+    
+    color: rgb(34, 34, 34);
+}
+
+.links-social{
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+
+.header-elements{
+    padding-top: 1.8vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 1.8vw;
+    display: flex;
+    align-items: center;
+}
+.navigation-bar{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navigation-bar-elements{
+     padding: 1.6px 0px 1.6px 0px;
+    display: block;
+    flex-shrink: 0;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 300;
+    line-height: 27.2px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.navigation-bar-text{
+    color: rgb(77, 77, 77);
+    cursor: pointer;
+    text-underline-offset: 6px;
+    text-decoration-color: rgba(77, 77, 77, 0.555);
+
+}
+a, a:focus {outline : none;}
+
+.picflow-gallery.gallery-padding[_ngcontent-ng-c2583209788]{
+    margin: 0 !important;
+    padding: 0px !important;
+}
+.links-social{
+    border: none;
+    outline : none;
+    outline : none;
+    display: flex;
+    gap: 25px;
+    justify-content: end;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.main{
+ 
+}
+
+.content-wrapper{
+    font-weight: 300;
+    flex-direction: column;
+    font-size: 25px;
+    width: 100%;
+    box-sizing: content-box;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    padding: 16px 0px 16px 0px;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+.dev-link:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
