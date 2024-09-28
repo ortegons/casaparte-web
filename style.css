@@ -54,14 +54,17 @@
 }
 
 .navigation-bar-elements{
+    display: flex;
      padding: 1.6px 0px 1.6px 0px;
-    display: block;
+    gap: 25px;;
     flex-shrink: 0;
     font-family: "Source Code Pro", monospace;
     font-weight: 300;
     line-height: 27.2px;
     font-size: 20px;
     text-align: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 .navigation-bar-text{
