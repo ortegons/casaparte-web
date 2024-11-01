@@ -1,9 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
-.logo{
-    width: auto;
+.logo-box{
     display: block;
-    flex-grow: 0.65;
+    flex-grow: 0.8;
+    object-fit: none;
+
+}
+.logo{
+    display: block;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 300;
+    line-height: 27.2px;
+    font-size: 14px;
+    object-fit: none;
 }
 .logo-img{
     max-height: 65px ;
@@ -19,7 +34,7 @@
 }
 
 .header{
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.08);
 }
 .fa-instagram{
     color: rgb(255, 255, 255);
@@ -78,10 +93,19 @@
     justify-items: center;
 }
 
+
+.logo-text{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-underline-offset: 6px;
+
+}
 .navigation-bar-text{
     color: rgb(255, 255, 255);
     cursor: pointer;
     text-underline-offset: 6px;
+    text-decoration: underline;
     text-decoration-color: rgba(77, 77, 77, 0.555);
 
 }
@@ -97,7 +121,7 @@ a, a:focus {outline : none;}
     display: flex;
     gap: 25px;
     font-size: 22px;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     flex-grow: 1;
     padding-right: 25px;
